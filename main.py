@@ -1,6 +1,3 @@
-from icecream import ic
-
-
 def findRelativeRanks(score):
         """
         :type score: List[int]
@@ -31,6 +28,7 @@ def findRelativeRanks(score):
         return rank, pos, score
 
 
+# array
 score = [10,3,8,9,4]
 
-ic(findRelativeRanks(score))
+findRelativeRanks(score)
